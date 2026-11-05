@@ -7,7 +7,7 @@ def main():
     BASE_DIR = Path(__file__).resolve().parent
 
     DB_PATH = BASE_DIR / "database.db"
-    SQL_PATH = BASE_DIR / "schema.sql" # Change manually if needed (example migration)
+    SQL_PATH = BASE_DIR / "schema.sql" # Change manually if needed (example migration). You can actually use this script to execute any SQL. Make it better if you want!
 
     if DB_PATH.exists():
         raise SystemError("Database already exist. Manually delete file.")
