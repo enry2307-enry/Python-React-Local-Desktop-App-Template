@@ -1,6 +1,6 @@
 from peewee import * # type: ignore
 
-# Write here your models (feel free to use any ORM you want
+# Write here your models (feel free to use any ORM you want)
 
 database = SqliteDatabase('database/database.db')
 
