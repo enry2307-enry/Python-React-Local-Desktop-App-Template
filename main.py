@@ -20,7 +20,7 @@ def main():
         url = (BASE_DIR / "frontend" / "dist" / "index.html").as_uri()
 
     webview.create_window(
-        "Wallet",
+        "MyApplication",
         url,
         js_api=API(),
         width=1200,
