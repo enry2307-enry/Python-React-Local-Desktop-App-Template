@@ -1,2 +1,3 @@
 pywebview
 python-dotenv
+peewee
