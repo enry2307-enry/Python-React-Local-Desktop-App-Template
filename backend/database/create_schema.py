@@ -1,3 +1,5 @@
+# You can rewrite this file to use any Database you want!
+
 import sqlite3
 from pathlib import Path
 
